@@ -6,12 +6,8 @@
   <title>Item Form</title>
 </head>
   <body>
-    <h1>Enter an item to purchase:</h1>
-    <form action="/checkout" method="POST">
-      <label for="item">Item: </label>
-      <input type="text" id="item" name="item"><br>
+    <h1>Item Purchased:</h1>
+    <h2><%= session.item %>
 
-      <input type="submit" id="submit">
-    </form>
   </body>
 </html>
